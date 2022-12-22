@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
+import Awalan from './components/Awalan';
+import Trending from './components/Trending';
+import Best from './components/Best';
+import Chara from './components/Chara';
+import Footer from './components/Footer';
+import "./style/anime.css"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <div>
+  <div>
+  <Navigation />
+  <Awalan />
+  </div>
+ <div className='trending'>
+ <div className="overlay"></div>
+  <Trending />
+ </div>
+ <div className='best'>
+  <Best />
+ </div>
+ <div className='chara'>
+  <Chara />
+  <Footer />
+ </div>
+ </div>
   );
 }
 
 export default App;
+

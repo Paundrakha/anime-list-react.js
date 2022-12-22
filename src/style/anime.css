@@ -1,0 +1,28 @@
+.trending {
+  height: auto;
+  background: url("../asset/IMG/BG/144565.jpg");
+  background-size: cover;
+}
+
+.best {
+  height: auto;
+  background-image: url("../asset/IMG/BG/84631.jpg");
+  backgroundposition: center;
+  backgroundrepeat: no-repeat;
+  background-size: cover;
+}
+
+.chara {
+  height: auto;
+  background: url("../asset/IMG/BG/593278.jpg");
+  background-size: cover;
+}
+
+#foot {
+  background: #020a17;
+}
+
+.name {
+  color: white;
+  text-decoration: none;
+}
